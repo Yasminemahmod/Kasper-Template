@@ -86,6 +86,7 @@ button {
     bottom: 0;
     left: 0;
     right: 0;
+    height: 100%;
     background-color: #000;
     opacity: 0.7;
     z-index: 1;
@@ -471,6 +472,7 @@ header .container nav .search {
     position: absolute;
     top: 50%;
     width: 100%;
+    max-height: 100%;
     z-index: 3;
     background-color: var(--text-background);
     text-align: center;
@@ -486,15 +488,30 @@ header .container nav .search {
     font-weight: normal;
     font-size: 25px;
     text-transform: uppercase;
-    margin-bottom: 30px;
+}
+.vedio .text p {
+    margin: 0 30px;
 }
 .vedio .text button {
     background-color: #000;
     color: #fff;
     border: none;
     padding: 8px 20px;
-    margin-top: 30px;
     cursor: pointer;
+}
+
+/* Small */
+@media (min-width: 767px) {
+    .vedio .text h3 {
+        font-size: 20px;
+    }
+    .vedio .text p {
+        margin: 0 15px;
+        font-size: 13px;
+    } 
+    .vedio .text button {
+        font-size: 14px;
+    }
 }
 /* End Video */
 
