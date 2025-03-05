@@ -490,7 +490,7 @@ header .container nav .search {
     text-transform: uppercase;
 }
 .vedio .text p {
-    margin: 0 30px;
+    margin: 30px 0;
 }
 .vedio .text button {
     background-color: #000;
@@ -501,12 +501,12 @@ header .container nav .search {
 }
 
 /* Small */
-@media (min-width: 767px) {
+@media (max-width: 766px) {
     .vedio .text h3 {
         font-size: 20px;
     }
     .vedio .text p {
-        margin: 0 15px;
+        margin: 15px 0;
         font-size: 13px;
     } 
     .vedio .text button {
